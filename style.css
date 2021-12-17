@@ -1,0 +1,254 @@
+
+#flex-direction{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+   }
+#flex-container{
+  display: flex;
+  justify-content: end;
+}
+
+.body1{
+  background-image: url("https://w.wallhaven.cc/full/9m/wallhaven-9mg95k.jpg")
+}
+.body2{
+  background-image: url("https://images.wallpaperscraft.ru/image/single/babochka_poverkhnost_derevyannyj_116623_1600x1200.jpg")
+}
+.hr1 {
+  border-style: none;
+  border-top-style:   dashed;
+  border-color: blue;
+  border-width: 20px;
+  height: 20px;
+  width: 70%;
+}
+.hr2{
+  border-style: none;
+  border-top-style:   dotted;
+  border-color: yellow;
+  border-width: 20px;
+  height: 20px;
+  width: 70%;
+}
+p {
+  color: purple;
+  font-family:   cursive;
+}
+img{
+  width:250px;
+  height:250px;
+}
+h1 {
+  color:purple;
+  margin:0;
+  text-align:center;
+  font-family: "Stella", fantasy;
+}
+h2 {
+  color: black;
+  text-align: left;
+  border-style: dashed;
+  width: 260px;
+  border-color: red;
+  font-family: "Stella", fantasy;
+  background-color: blue;
+  font-size: 50px;
+}
+h3 {
+  margin:0;
+  text-align:center;
+  font-family: "Stella", fantasy;
+  font-size: 100px;
+}
+h4{
+  color: black;
+  text-align: left;
+  border-style: dashed;
+  width: 380px;
+  border-color: red;
+  font-family: "Stella", fantasy;
+  background-color: blue;
+  font-size: 50px;
+}
+h5{
+  color: black;
+  text-align: left;
+  border-style: dashed;
+  width: 190px;
+  border-color: red;
+  font-family: "Stella", fantasy;
+  background-color: blue;
+  font-size: 50px;
+}
+td{
+  width: 100px;
+  align: top;
+}
+ul{
+  color: green;
+  font-style: italic;
+  font-size: 25px;
+}
+span{
+  color:red;
+}
+
+.span1{
+  color:yellow;
+}
+.span2{
+  color:pink;
+}
+.span3{
+  color:white;
+}
+.span4{
+  color:red;
+}
+.span5{
+  color: black;
+}
+.span6{
+  color:green;
+}
+.flex-item-1{
+  height: 50px;
+  width: 300px;
+  background-color: #DC143C;
+  padding: 10px 0px 0px 0px;
+  border: 10px solid black;
+}
+
+.flex-item-2{
+  display: flex;
+  height: 200px;
+  width: 160px;
+  border: 10px solid gold;
+}
+
+.flex-item-3{
+    display: flex;
+    height: 200px;
+    width: 2000px;
+    border: 10px solid gold;
+    background-image: url("https://w.wallhaven.cc/full/1k/wallhaven-1k2g1v.jpg")
+  }
+
+  .flex-item-4{
+    display: flex;
+    height: 250px;
+    width: 300px;
+    border: 10px solid gold;
+    background-image: url("https://w.wallhaven.cc/full/3z/wallhaven-3z2rj6.jpg")
+  }
+  .flex-item-5{
+    height: 200px;
+    width: 200px;
+    border: 10px solid gold;
+    background-image: url("https://w.wallhaven.cc/full/28/wallhaven-282o1m.jpg")
+  }
+  .flex-item-6{
+      justify-content:  center;
+      height: 200px;
+      width: 1500px;
+      border: 10px solid gold;
+      background-image: url("https://w.wallhaven.cc/full/1k/wallhaven-1k2g1v.jpg")
+    }
+ .flex-item-7{
+        justify-content:  center;
+        height: 150px;
+        width: 500px;
+        border: 10px solid gold;
+        background-image: url("https://w.wallhaven.cc/full/z8/wallhaven-z8p1jy.jpg");
+      }
+.flex-item-8{
+        display: flex;
+        height: 250px;
+        width: 300px;
+        border: 10px solid gold;
+      }
+.flex-item-9{
+       justify-content: center;
+        height: 250px;
+        width: 100px;
+        border: 10px solid gold;
+      }
+.p1{
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  font-family: monospace;
+  font-stretch: normal;
+  font-family:   cursive;
+}
+
+.p2{
+  text-align: left;
+  color: white;
+  font-family: serif;
+  font-stretch:  ultra-expanded;
+  width: inherit;
+  height: 80px;
+}
+ .p3{
+color: purple;
+text-align: center;
+width: auto;
+font-variant: inherit;
+font-weight: lighter;
+font-family: "Stella", fantasy;
+}
+
+
+.block{
+  display: flex;
+  border: 20px solid #ece89d;
+  margin: 0px 0px  20px 0px;
+  width: 1200px;
+}
+.block1{
+  border: 10px solid #ece89d;
+  width: 200px;
+  height: 100px;
+  background-image: url("https://w.wallhaven.cc/full/v9/wallhaven-v9gv2l.jpg")
+}
+.block2{
+  justify-content: center;
+  width: 500px;
+  border: 20px solid #ff0000;
+  margin: 0px 0px  20px 0px;
+  background-color: 
+}
+.container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.blockfirst{
+  min-height: 430px;
+  font-size: 40px;
+  color: white;
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-right{
+  margin-left: 30px;
+  display: flex;
+  flex: 0 0 220px;
+  flex-direction: column;
+}
+.block-item{
+  min-height: 200px;
+  font-size: 40px;
+  color: white;
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
